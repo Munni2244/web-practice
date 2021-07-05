@@ -12,11 +12,13 @@ font-size: bold;
 .box{
     width: 50%;
     height: 80%;
+    margin-top: 10px;
 
 }
 .box img{
     width: 80%;
     margin-bottom: 10%;
+    
 }
 .link{
     text-decoration: none;
@@ -38,3 +40,40 @@ body{
     background-repeat: no-repeat;
     background-position: right;
 }
+.header1{
+    color: rgb(59, 117, 83);
+}
+.header2{
+    color: mediumblue;
+}
+.box2{
+    width: 40%;
+    height: 300px;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    box-shadow: inset 0px 0px 40px 20px rgb(207, 144, 181); 
+     border-image: linear-gradient(rgb(241, 149, 200 ) blue);
+        border-left: 7px solid;
+        border-image-slice: 1;
+    
+
+}
+.border{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, rgb(241, 149, 200));
+    border-image-slice:1 ;
+    margin-bottom: 10%;
+    border-radius: 5px;
+    margin-top: 10%;
+
+}
+.margin{
+    background-image: url(image/exp-bg.png);
+background-repeat: no-repeat;
+background-position: left;
+}
+ footer p{ 
+     text-align: center;
+ }
+
