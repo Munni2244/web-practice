@@ -1,0 +1,40 @@
+h1{
+    font-family: fantasy;
+font-size: bold;
+}
+.text{color: peru;}
+
+.flexible-container{
+    display: flex;
+  
+    
+}
+.box{
+    width: 50%;
+    height: 80%;
+
+}
+.box img{
+    width: 80%;
+    margin-bottom: 10%;
+}
+.link{
+    text-decoration: none;
+    padding: 10px; 
+    border-radius: 5% 40%;
+    background-color:orangered;
+    box-shadow: 10px 10px 10px rgb(15, 15, 15);
+}
+.bg-image{
+    background-image: url(image/top-banner.png);
+    background-repeat: no-repeat;
+   
+}
+body{
+    margin: 0%;
+}
+.image{
+    background-image: url(image/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
